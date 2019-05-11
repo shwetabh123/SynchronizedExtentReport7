@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" total="8" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Extent Parallel Test" duration-ms="582130" started-at="2019-05-07T03:28:10Z" finished-at="2019-05-07T03:37:52Z">
+    <groups>
+      <group name="abc">
+        <method signature="ValidLogin1.TC1(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="TC1" class="test.java.com.pulse.Test.ValidLogin1"/>
+      </group> <!-- abc -->
+    </groups>
+    <test name="TestChrome" duration-ms="532841" started-at="2019-05-07T03:28:10Z" finished-at="2019-05-07T03:37:03Z">
+      <class name="test.java.com.pulse.Test.ValidLogin2">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="beforeClass" is-config="true" duration-ms="234" started-at="2019-05-07T09:04:10Z" finished-at="2019-05-07T09:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a32de6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="beforeMethod" is-config="true" duration-ms="23925" started-at="2019-05-07T09:04:10Z" finished-at="2019-05-07T09:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC3(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="TC3" duration-ms="3" started-at="2019-05-07T09:04:34Z" description="This test case verifies whether the reading check box is selected." finished-at="2019-05-07T09:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;
+	at test.java.com.pulse.Test.ValidLogin2.TC3(ValidLogin2.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="tearDown" is-config="true" duration-ms="268" started-at="2019-05-07T09:04:34Z" finished-at="2019-05-07T09:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC3 status=FAILURE method=ValidLogin2.TC3(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="beforeMethod" is-config="true" duration-ms="58945" started-at="2019-05-07T09:04:34Z" finished-at="2019-05-07T09:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC4(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="TC4" duration-ms="74854" started-at="2019-05-07T09:05:33Z" description="This test case verifies whether the country is selected." finished-at="2019-05-07T09:06:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;
+	at test.java.com.pulse.Test.ValidLogin2.TC4(ValidLogin2.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="tearDown" is-config="true" duration-ms="10157" started-at="2019-05-07T09:06:48Z" finished-at="2019-05-07T09:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC4 status=FAILURE method=ValidLogin2.TC4(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@3e57cd70]" name="afterClass" is-config="true" duration-ms="4687" started-at="2019-05-07T09:06:58Z" finished-at="2019-05-07T09:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin2 -->
+      <class name="test.java.com.pulse.Test.ValidLogin1">
+        <test-method status="PASS" signature="beforeTest(org.testng.xml.XmlTest)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="beforeTest" is-config="true" duration-ms="32" started-at="2019-05-07T08:58:10Z" finished-at="2019-05-07T08:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestChrome" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=test.java.com.pulse.Test.ValidLogin1] [XmlClass class=test.java.com.pulse.Test.ValidLogin2]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-07T08:58:10Z" finished-at="2019-05-07T08:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a32de6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="65833" started-at="2019-05-07T08:58:10Z" finished-at="2019-05-07T08:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC1(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="TC1" duration-ms="60176" started-at="2019-05-07T08:59:16Z" description="This test case is to verify that the firstname and lastname is entered." finished-at="2019-05-07T09:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;
+	at test.java.com.pulse.Test.ValidLogin1.TC1(ValidLogin1.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="tearDown" is-config="true" duration-ms="6861" started-at="2019-05-07T09:00:16Z" finished-at="2019-05-07T09:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1 status=FAILURE method=ValidLogin1.TC1(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="110607" started-at="2019-05-07T09:00:23Z" finished-at="2019-05-07T09:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC2(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="TC2" duration-ms="83363" started-at="2019-05-07T09:02:14Z" description="This test case verifies whether the radio button single is selected." finished-at="2019-05-07T09:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Facebook ï¿½ log in or sign up] but found [Facebook – log in or sign up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Facebook ï¿½ log in or sign up] but found [Facebook – log in or sign up]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at test.java.com.pulse.Test.ValidLogin1.TC2(ValidLogin1.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="tearDown" is-config="true" duration-ms="2892" started-at="2019-05-07T09:03:37Z" finished-at="2019-05-07T09:03:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2 status=FAILURE method=ValidLogin1.TC2(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1d8d30f7]" name="afterClass" is-config="true" duration-ms="29559" started-at="2019-05-07T09:03:40Z" finished-at="2019-05-07T09:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin1 -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="582130" started-at="2019-05-07T03:28:10Z" finished-at="2019-05-07T03:37:52Z">
+      <class name="test.java.com.pulse.Test.ValidLogin4">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="beforeClass" is-config="true" duration-ms="234" started-at="2019-05-07T09:04:10Z" finished-at="2019-05-07T09:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b19b79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="beforeMethod" is-config="true" duration-ms="25208" started-at="2019-05-07T09:04:10Z" finished-at="2019-05-07T09:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC7(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="TC7" duration-ms="113915" started-at="2019-05-07T09:04:35Z" finished-at="2019-05-07T09:06:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="tearDown" is-config="true" duration-ms="18424" started-at="2019-05-07T09:06:29Z" finished-at="2019-05-07T09:06:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC7 status=SUCCESS method=ValidLogin4.TC7(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="beforeMethod" is-config="true" duration-ms="28368" started-at="2019-05-07T09:06:48Z" finished-at="2019-05-07T09:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC8(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="TC8" duration-ms="35656" started-at="2019-05-07T09:07:16Z" finished-at="2019-05-07T09:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="tearDown" is-config="true" duration-ms="515" started-at="2019-05-07T09:07:52Z" finished-at="2019-05-07T09:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC8 status=SUCCESS method=ValidLogin4.TC8(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@44c8afef]" name="afterClass" is-config="true" duration-ms="344" started-at="2019-05-07T09:07:52Z" finished-at="2019-05-07T09:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin4 -->
+      <class name="test.java.com.pulse.Test.ValidLogin3">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="beforeSuite" is-config="true" duration-ms="953" started-at="2019-05-07T08:58:09Z" finished-at="2019-05-07T08:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.xml.XmlTest)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="beforeTest" is-config="true" duration-ms="32" started-at="2019-05-07T08:58:10Z" finished-at="2019-05-07T08:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestFirefox" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=test.java.com.pulse.Test.ValidLogin3] [XmlClass class=test.java.com.pulse.Test.ValidLogin4]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-07T08:58:10Z" finished-at="2019-05-07T08:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b19b79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="beforeMethod" is-config="true" duration-ms="65860" started-at="2019-05-07T08:58:10Z" finished-at="2019-05-07T08:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC5(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="TC5" duration-ms="362" started-at="2019-05-07T08:59:16Z" finished-at="2019-05-07T08:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.aventstack.extentreports.ExtentTest.assignCategory(Ljava/lang/String;)Lcom/aventstack/extentreports/ExtentTest;
+	at test.java.com.pulse.Test.ValidLogin3.TC5(ValidLogin3.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="tearDown" is-config="true" duration-ms="41396" started-at="2019-05-07T08:59:17Z" finished-at="2019-05-07T08:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC5 status=FAILURE method=ValidLogin3.TC5(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="beforeMethod" is-config="true" duration-ms="46136" started-at="2019-05-07T08:59:58Z" finished-at="2019-05-07T09:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC6(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="TC6" duration-ms="113481" started-at="2019-05-07T09:00:44Z" finished-at="2019-05-07T09:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Hindi News, à¤¹à¤¿à¤‚à¤¦à¥€ à¤¸à¤®à¤¾à¤šà¤¾à¤°, Samachar, Breaking News, Latest Khabar - AajTak] but found [Hindi News, हिंदी समाचार, Samachar, Breaking News, Latest Khabar - AajTak]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Hindi News, à¤¹à¤¿à¤‚à¤¦à¥€ à¤¸à¤®à¤¾à¤šà¤¾à¤°, Samachar, Breaking News, Latest Khabar - AajTak] but found [Hindi News, हिंदी समाचार, Samachar, Breaking News, Latest Khabar - AajTak]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at test.java.com.pulse.Test.ValidLogin3.TC6(ValidLogin3.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="tearDown" is-config="true" duration-ms="57750" started-at="2019-05-07T09:02:38Z" finished-at="2019-05-07T09:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC6 status=FAILURE method=ValidLogin3.TC6(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="afterClass" is-config="true" duration-ms="34075" started-at="2019-05-07T09:03:36Z" finished-at="2019-05-07T09:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@4923ab24]" name="testDown" is-config="true" duration-ms="31" started-at="2019-05-07T09:07:53Z" finished-at="2019-05-07T09:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin3 -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Extent Parallel Test -->
+</testng-results>

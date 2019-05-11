@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Extent Parallel Test]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.pulse.Test.ValidLogin2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="TC4" invocation-numbers="0"/>
+          <include name="TC3" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin2 -->
+      <class name="test.java.com.pulse.Test.ValidLogin4">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin4 -->
+      <class name="test.java.com.pulse.Test.ValidLogin1">
+        <methods>
+          <include name="TC1" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="TC2" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin1 -->
+      <class name="test.java.com.pulse.Test.ValidLogin3">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="testDown"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin3 -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.java.com.pulse.Test.ValidLogin2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin2 -->
+      <class name="test.java.com.pulse.Test.ValidLogin4">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin4 -->
+      <class name="test.java.com.pulse.Test.ValidLogin1">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin1 -->
+      <class name="test.java.com.pulse.Test.ValidLogin3">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC5" invocation-numbers="0"/>
+          <include name="TC6" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="testDown"/>
+        </methods>
+      </class> <!-- test.java.com.pulse.Test.ValidLogin3 -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Extent Parallel Test] -->
