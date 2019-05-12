@@ -50,7 +50,7 @@ import main.java.generic.Excel;
 	
 	public static String appURL1 = "https://in.yahoo.com/";
 	
-	public static String appURL2 = "https://aajtak.intoday.in/";	
+	public static String appURL2 = "https://www.sabtv.com/en_in/";	
 	
 	public static String appURL3 = "https://economictimes.indiatimes.com/";
 
