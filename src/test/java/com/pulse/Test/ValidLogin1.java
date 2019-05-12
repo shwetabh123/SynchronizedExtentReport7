@@ -50,7 +50,7 @@ import main.java.generic.Excel;
 		//public static  ExtentTest extentTest; 
 		
 		
-	public static String appURL = "https://www.facebook.com/";
+	public static String appURL = "https://www.google.com";
 		
 		public static String appURL1 = "https://in.yahoo.com/";
 		

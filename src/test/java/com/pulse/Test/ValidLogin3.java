@@ -47,7 +47,7 @@ import main.java.generic.Excel;
 		
 		public static String appURL1 = "https://in.yahoo.com/";
 		
-		public static String appURL2 = "https://aajtak.intoday.in/";	
+		public static String appURL2 = "https://www.sabtv.com/en_in/";	
 		
 		public static String appURL3 = "https://economictimes.indiatimes.com/";
 		
@@ -118,7 +118,7 @@ import main.java.generic.Excel;
 
 			 
 		   String actualTitle = driver.getTitle();
-		   String expectedTitle = "Hindi News, हिंदी समाचार, Samachar, Breaking News, Latest Khabar - AajTak";
+		   String expectedTitle = "SAB TV";
 		   assertEquals(actualTitle,expectedTitle);
 	//	   childTestnew.get().assignCategory("smoke testing ");
 			

@@ -17,8 +17,6 @@
 		
 		
 	
-
-		
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
