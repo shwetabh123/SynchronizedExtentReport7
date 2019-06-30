@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import main.java.generic.BasePage;
+import generic.BasePage;
 
 public class Analyse extends BasePage{
 	

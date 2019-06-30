@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import main.java.generic.BasePage;
+import generic.BasePage;
 
 public class Author extends BasePage{
 

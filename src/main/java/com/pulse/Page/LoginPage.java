@@ -27,8 +27,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.ITestResult;
 
-import main.java.generic.BasePage;
-import main.java.generic.BaseTest;
+import generic.BasePage;
+import generic.BaseTest;
 
 
 public class LoginPage extends BasePage {

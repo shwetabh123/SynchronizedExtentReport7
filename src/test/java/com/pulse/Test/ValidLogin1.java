@@ -34,9 +34,9 @@ import com.aventstack.extentreports.Status;
 import main.java.com.pulse.Page.Author;
 import main.java.com.pulse.Page.HomePage;
 import main.java.com.pulse.Page.LoginPage;
-import main.java.generic.BasePage;
-import main.java.generic.BaseTest;
-import main.java.generic.Excel;
+import generic.BaseTest;
+import generic.BasePage;
+import generic.Excel;
 
 
 

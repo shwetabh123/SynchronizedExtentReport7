@@ -1,5 +1,5 @@
-package main.java.generic;
-/*package generic;
+/*package main.java.generic;
+package generic;
 import java.util.HashMap;
 
 import org.apache.log4j.Logger;

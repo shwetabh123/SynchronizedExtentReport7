@@ -1,5 +1,5 @@
-package main.java.generic;
-/*
+/*package main.java.generic;
+
 package generic;
 
 

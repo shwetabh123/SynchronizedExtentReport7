@@ -3,8 +3,8 @@ package test.java.com.pulse.Test;
 import org.testng.annotations.Test;
 
 import main.java.com.pulse.Page.LoginPage;
-import main.java.generic.BaseTest;
-import main.java.generic.Excel;
+import generic.BaseTest;
+import generic.Excel;
 
 public class InvalidLogin extends BaseTest 
 
